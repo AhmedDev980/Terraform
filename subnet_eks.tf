@@ -1,4 +1,4 @@
-/* create 4 subnets from cidr range 10.16.00/22.
+/* create 4 subnets from cidr range 10.16.0.0/22.
 Find changed CIDR and subnet ids, use these subnet ids to create sub nets and EKS cluster in one of those subnets, having 2 min and 3 max nodes using terraform in aws. */
 
 /* A /22 network has 1024 IP addresses (2^(32-22) = 1024 addresses).
